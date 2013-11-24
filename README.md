@@ -1,23 +1,19 @@
-# dinOS
+# os-configure
 
 ### EXPERIMENTAL aka NOT WORKING
 
-beginnings of a personal OS
+beginnings of a personal OS configuration
 
 ## how to install
 
 clone this repo
 
-    git clone https://github.com/ahdinosaur/dinOS.git
+    git clone https://github.com/ahdinosaur/os-configure.git
 
-install live-build
+install ansible, python-apt, python-pycurl
 
-    sudo aptitude install live-build
+    sudo aptitude install ansible python-apt python-pycurl
 
-build .iso
+configure system
 
-    ./build.py
-    
-copy the .iso to your lucky flash drive
-
-    dd if=binary.hybrid.iso of=/dev/sd#
+    ./configure.sh
