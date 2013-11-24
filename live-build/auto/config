@@ -5,7 +5,7 @@ set -e
 lb config noauto \
   --apt aptitude \
   --architectures amd64 \
-  --archive-areas "main non-free contrib" \
+  --archive-areas "main" \
   --checksums sha1 \
   --debian-installer live \
   --debian-installer-distribution testing \
