@@ -1,0 +1,7 @@
+cad_packages:
+  - gimp
+  - inkscape
+  - openscad
+  - kicad
+  - librecad
+  - blender

@@ -1,0 +1,8 @@
+- name: setup desktops
+  hosts: desktop
+  user: root
+
+  roles:
+    - common
+    - desktop
+  sudo: yes

@@ -1,0 +1,3 @@
+- name: install kde packages
+  apt: pkg=$item state=latest
+  with_items: kde_packages
