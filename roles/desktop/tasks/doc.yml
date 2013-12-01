@@ -1,3 +1,0 @@
-- name: install doc packages
-  apt: pkg=$item state=latest
-  with_items: doc_packages

@@ -1,7 +1,0 @@
-dev_packages:
-  - virtualbox
-  - build-essential
-  # TODO nodejs nvm
-  # TODO ruby rvm
-  # TODO python pip
-  # TODO clojure lein

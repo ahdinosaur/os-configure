@@ -1,3 +1,0 @@
-- name: install cad packages
-  apt: pkg=$item state=latest
-  with_items: audio_packages

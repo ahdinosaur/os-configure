@@ -1,5 +1,0 @@
-- include: web-google-chrome.yml
-
-- name: install web packages
-  apt: pkg=$item state=latest
-  with_items: web_packages

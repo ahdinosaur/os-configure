@@ -1,3 +1,0 @@
-- name: install dev packages
-  apt: pkg=$item state=latest
-  with_items: dev_packages

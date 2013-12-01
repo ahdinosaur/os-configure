@@ -3,6 +3,10 @@
 HERE="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )";
 cd $HERE;
 
-cd ./ansible;
+# if salt doesn't exist, bootstrap it
+if ! hash salt-call 2>/dev/null; then
+  #wget -O - http://bootstrap.saltstack.org | sudo sh
+  wget -O - https://raw.github.com/saltstack/salt-bootstrap/develop/bootstrap-salt.sh | sudo sh -s -- git develop
+fi
 
-ansible-playbook -i inventory all.yml
+salt-call --config-dir=$HERE/config --local state.highstate "$@"

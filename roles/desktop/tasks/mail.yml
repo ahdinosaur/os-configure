@@ -1,3 +1,0 @@
-- name: install mail packages
-  apt: pkg=$item state=latest
-  with_items: mail_packages
