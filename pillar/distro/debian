@@ -1,0 +1,4 @@
+debian:
+  mirror: en
+  dist: unstable
+  comps: main
