@@ -12,4 +12,4 @@ clone this repo
 
 configure system
 
-    sudo ./configure.sh
+    sudo ./configure
