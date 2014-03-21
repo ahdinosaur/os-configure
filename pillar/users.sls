@@ -1,8 +1,8 @@
 users:
   michael:
-    - gid_from_name: True
-    - groups:
-      - sudo
+    fullname: Michael Williams
+    sudouser: True
+    groups:
       - dialout
       - rvm
       - cdrom
@@ -12,3 +12,4 @@ users:
       - scanner
       - bluetooth
       - netdev
+    shell: /bin/zsh
