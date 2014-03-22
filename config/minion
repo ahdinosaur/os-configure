@@ -1,3 +1,5 @@
+master: localhost
+
 file_roots:
   base:
     - ./file
