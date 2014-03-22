@@ -22,3 +22,4 @@ vim:
     - mode: 600
     - require:
       - pkg: vim
+{% endfor %}
